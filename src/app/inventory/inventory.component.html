@@ -1,0 +1,28 @@
+<div class='container'>
+    <div class="row">
+        <div class="navbar navbar-expand-lg">
+            <a routerLink="/" class="navbar-brand">Home</a>
+            <a routerLink="/history" class="navbar-brand">History</a>
+            <a routerLink="/toys" class="navbar-brand">Plush toys</a>
+            <a routerLink="/new-plushie" class="navbar-brand">Plush toys</a>
+            <a routerLink="/inventory" class="navbar-brand">Inventory</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                
+              </tr>
+            </thead>
+              <tbody>
+                <tr *ngFor="let sor of plush">
+                    <td *ngFor="let cella of plushFejlec">
+                        {{sor[cella]}}
+                    </td>
+                </tr>
+            </tbody>
+          </table>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nem Plushe</title>
+</head>
+<body>
+    
+    <div class='container'>
+        <div class="row">
+            <div class="navbar navbar-expand-lg">
+                <a routerLink="/" class="navbar-brand">Home</a>
+                <a routerLink="/history" class="navbar-brand">History</a>
+                <a routerLink="/toys" class="navbar-brand">Plush toys</a>
+                <a routerLink="/new-plushie" class="navbar-brand">Plush toys</a>
+                <a routerLink="/inventory" class="navbar-brand">Inventory</a>
+            </div>
+        </div>
+        <div class='mb-2'>
+          <label class='form-label' for='name'>Name</label>
+          <input type='text' class='form-control' id='name'>
+        </div>
+        <div class='mb-2'>
+          <label class='form-label' for='size'>Size (cm)</label>
+          <input type='number' class='form-control' id='size'>
+        </div>
+        <div class='alert alert-danger'> [[ A hibaüzenet helye ]] </div>
+        <div class='mb-2'>
+          <input type='button' class='btn btn-primary' value='New plushie'>
+        </div>
+      </div>
+</body>
+</html>
